@@ -1,0 +1,47 @@
+.search-wrapper {
+    margin-top: 40px;
+}
+
+.search-wrapper .user_label {
+    font-size: 16px;
+    color: #000;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.search-wrapper .search_box {
+    border: 1px solid #007e7d;
+    /* border-radius: 8px; */
+    width: 350px;
+    height: 35px;
+}
+
+ .submit-btn {
+    border: 1px solid #007e7d;
+    background-color: #007e7d;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.table_custom{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+td,th {
+    border: 1px solid rgb(79, 78, 78);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color:  #dddddd;
+}
+
+.error-msg {
+    color: rgb(165, 10, 10);
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+}
